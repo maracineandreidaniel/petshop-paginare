@@ -1,0 +1,1 @@
+attachCards(animale);
