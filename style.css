@@ -1,5 +1,70 @@
 body{
     box-sizing: border-box;
+    background-color: rgb(226, 248, 194);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.overlay{
+    background-color: rgba(80, 78, 78, 0.59);
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    display: none;
+}
+
+.fullCard{
+    background-color: rgb(228, 243, 226);
+    width: 80%;
+    height: 600px;
+    position: relative;
+    top: 200px;
+    max-width: 650px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.right{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
+
+.left{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    
+}
+
+.exit{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.simpleCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
+.simpleCard img{
+    border-radius: 20px;
+    width: 60%;
+    height: 250px;
 }
 
 nav{
@@ -7,6 +72,18 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
+}
+
+nav h2{
+    font-size: 30px;
+    color: green;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.search p{
+    font-size: 20px;
 }
 
 .search{
@@ -14,6 +91,19 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.filtre{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.filtre select{
+    height: 30px;
 }
 
 
@@ -26,6 +116,7 @@ nav{
 }
 
 .animal{
+    background-color: rgb(187, 224, 131);
     margin: auto;
     border: solid 1px black;
     display: flex;
@@ -33,10 +124,17 @@ nav{
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* max-width: 450px; */
-
+     max-width: 300px;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.animal p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
 }
 
 .animal img{
@@ -45,11 +143,39 @@ nav{
     border-radius: 70px;
 }
 
+.butoane{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.butoane button{
+    background-color: rgb(39, 65, 1);
+    color: white;
+}
+
 @media(min-width:720px){
     .animaleGrid{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         column-gap: 10px;
+    }
+
+    nav{
+        flex-direction: row;
+        gap: 30%;
+        
+    }
+
+
+    .search{
+        flex-direction: row;
+        gap: 30px;
+        margin-bottom: 0;
     }
 }
 

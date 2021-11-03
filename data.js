@@ -4,103 +4,99 @@ let animale=[
     specie:"caine",
     imagine:"animale/caine.jpg",
     id:12345,
-    dataAdaugare:"12-03-2017"
+    dataAdaugare:"04-03-2018"
 },
 {
     name:"Rex",
     specie:"caine",
     imagine:"animale/caine.jpg",
     id:34264,
-    dataAdaugare:"11-03-2018"
+    dataAdaugare:"11-03-2015"
 },
 {
     name:"Vasile",
     specie:"panda",
     imagine:"animale/panda.jpg",
     id:3685,
-    dataAdaugare:"12-03-2017"
+    dataAdaugare:"12-03-2012"
 },
 {
     name:"Ionel",
     specie:"crocodil",
     imagine:"animale/crocodil-1.jpg",
     id:16375,
-    dataAdaugare:"12-03-2017"
+    dataAdaugare:"12-03-2021"
 },
 {
     name:"Miti",
     specie:"pisica",
     imagine:"animale/pisica.jpg",
     id:74674,
-    dataAdaugare:"12-03-2017"
+    dataAdaugare:"12-03-2045"
 },
 {
     name:"Titi",
     specie:"porc",
     imagine:"animale/porc.jpg",
     id:34674,
-    dataAdaugare:"12-03-2017"
+    dataAdaugare:"12-03-1999"
 },
 {
     name:"Negruta",
     specie:"caine",
     imagine:"animale/caine.jpg",
     id:97543,
-    dataAdaugare:"12-03-2017"
+    dataAdaugare:"12-03-1987"
 },
 {
     name:"Minnie",
     specie:"pisica",
     imagine:"animale/pisica.jpg",
     id:18645,
-    dataAdaugare:"12-03-2017"
+    dataAdaugare:"12-03-2011"
 },
 {
     name:"Merz",
     specie:"porc",
     imagine:"animale/porc.jpg",
     id:46734,
-    dataAdaugare:"12-03-2017"
+    dataAdaugare:"12-03-2011"
 },
 {
     name:"Lushi",
     specie:"lemur",
     imagine:"animale/lemur.jpg",
     id:19845,
-    dataAdaugare:"12-03-2017"
+    dataAdaugare:"12-03-2010"
 },
 {
     name:"Lord",
     specie:"porc",
     imagine:"animale/porc.jpg",
     id:26456,
-    dataAdaugare:"12-03-2017"
+    dataAdaugare:"12-03-2008"
 },
 {
     name:"Cecilia",
     specie:"pisica",
     imagine:"animale/pisica.jpg",
     id:98123,
-    dataAdaugare:"12-03-2017"
+    dataAdaugare:"12-03-2009"
 },
 {
     name:"Piersica",
     specie:"lemur",
     imagine:"animale/lemur.jpg",
     id:88888,
-    dataAdaugare:"12-03-2017"
+    dataAdaugare:"12-03-2011"
 },
 {
     name:"Cafeluta",
     specie:"pisica",
     imagine:"animale/pisica.jpg",
     id:12222,
-    dataAdaugare:"12-03-2017"
+    dataAdaugare:"12-03-2005"
 },
-
-
-
-
 
 
 
